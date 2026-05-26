@@ -1,0 +1,65 @@
+﻿:root {
+    color-scheme: dark;
+    font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b1220;
+    color: #f5f7fb;
+}
+
+body {
+    background: radial-gradient(circle at top, rgba(17, 178, 255, 0.16), transparent 35%),
+        linear-gradient(180deg, #070b19 0%, #0f162a 100%);
+    min-height: 100vh;
+}
+
+.hero {
+    background: linear-gradient(135deg, rgba(13, 30, 70, 0.94), rgba(3, 7, 16, 0.98));
+}
+
+.hero-image {
+    max-width: 100%;
+}
+
+.product-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 22px 45px rgba(0, 0, 0, 0.18);
+}
+
+.feature-list li {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.feature-list li::before {
+    content: "✓";
+    color: #22d3ee;
+    margin-right: 0.75rem;
+}
+
+.contact-card {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+footer.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.btn-primary {
+    background-color: #1f7bff;
+    border-color: #1f7bff;
+}
+
+.btn-primary:hover {
+    background-color: #1c6aea;
+    border-color: #195cd0;
+}
+
+.toast {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 1100;
+}
